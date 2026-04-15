@@ -26,7 +26,7 @@ void Setup(AlxWindow* w){
         (Vec2){ 0.0f,0.0f },
         (Vec2){ 0.0f,0.0f }
     ));
-    TextEditor_Load(&editor,"./src/Main.c");
+    TextEditor_Load(&editor,"/home/codeleaded/Hecke/C/Gui_OMML/code/Main.omml");
 
     Resize(w);
 }
